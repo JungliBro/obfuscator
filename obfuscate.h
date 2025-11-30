@@ -2,8 +2,7 @@
 #define ULTIMATE_OBFUSCATOR_H
 /* --------------------------------- ABOUT -------------------------------------
    Author : Jitendra Kumar
-   Github : https://github.com/JungliCheats
-   Telegram : @JungliCheats
+   Github : https://github.com/JungliBro
 
 The strongest header-only C++ string obfuscator
         • 100% compile-time encryption
