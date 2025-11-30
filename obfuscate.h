@@ -200,6 +200,5 @@ CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
   Author : Jitendra Kumar
-  Github : https://github.com/JungliCheats
-  Telegram : @JungliCheats
+  Github : https://github.com/JungliBro
 ----------------------------------------------------------------------------- */
