@@ -310,64 +310,7 @@ int main() {
 
 ---
 
-## 🛡️ Defeats All Tools
 
-<div align="center">
-
-<table>
-<tr>
-<td align="center" width="25%">
-  <img src="https://img.shields.io/badge/IDA_Pro-DEFEATED-success?style=for-the-badge" />
-  <br><sub><b>No String References</b></sub>
-</td>
-<td align="center" width="25%">
-  <img src="https://img.shields.io/badge/Ghidra-DEFEATED-success?style=for-the-badge" />
-  <br><sub><b>Decompiler Blind</b></sub>
-</td>
-<td align="center" width="25%">
-  <img src="https://img.shields.io/badge/FLOSS-DEFEATED-success?style=for-the-badge" />
-  <br><sub><b>No Auto Extraction</b></sub>
-</td>
-<td align="center" width="25%">
-  <img src="https://img.shields.io/badge/Strings-DEFEATED-success?style=for-the-badge" />
-  <br><sub><b>Empty Output</b></sub>
-</td>
-</tr>
-</table>
-
-### What Reverse Engineers See
-
-```bash
-$ strings malware.exe | grep "api"
-# Nothing! 🎉
-
-$ floss malware.exe
-# No obfuscated strings detected
-
-$ ida malware.exe
-# No string xrefs found
-```
-
-</div>
-
----
-
-## 📊 Benchmarks
-
-<div align="center">
-
-| Test | XOR Basic | AY_OBFUSCATE | **ULTIMATE** |
-|------|-----------|--------------|--------------|
-| Encryption Time | Compile-time | Compile-time | Compile-time |
-| Binary Strings | ❌ Visible | ✅ Hidden | ✅ Hidden |
-| Memory Strings | ❌ Visible | ⚠️ Cached | ✅ Wiped |
-| FLOSS Detection | ✅ Detected | ⚠️ Maybe | ❌ Not Detected |
-| Unique Per Build | ❌ No | ❌ No | ✅ **Yes** |
-| Thread Safety | ❌ No | ❌ No | ✅ **Yes** |
-
-</div>
-
----
 
 ## 🚨 Important Notes
 
