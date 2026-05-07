@@ -331,7 +331,7 @@ int main() {
 **MIT License** - Free for commercial and personal use
 
 ```
-Copyright © 2024 Jitendra Gupta (JungliBro)
+Copyright © 2024 Jitendra Kr. Gupta (JungliCode)
 ```
 
 </div>
@@ -352,7 +352,7 @@ Copyright © 2024 Jitendra Gupta (JungliBro)
   <img src="https://forthebadge.com/images/badges/made-with-c-plus-plus.svg" />
 </p>
 
-**Made with 🔥 by Jitendra Gupta (JungliBro)**
+**Made with 🔥 by Jitendra Kr. Gupta (JungliCode)**
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,6,24,16&height=100&section=footer" />
 
