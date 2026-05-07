@@ -1,8 +1,8 @@
 #ifndef ULTIMATE_OBFUSCATOR_H
 #define ULTIMATE_OBFUSCATOR_H
 /* --------------------------------- ABOUT -------------------------------------
-   Author : Jitendra Kumar
-   Github : https://github.com/JungliBro
+   Author : Jitendra Kumar Gupta
+   Github : https://github.com/JungliCode
 
 The strongest header-only C++ string obfuscator
         • 100% compile-time encryption
@@ -78,7 +78,7 @@ namespace obf {
     template <std::size_t N, uint32_t K1, uint32_t K2, uint32_t SEED>
     class SmartString {
         mutable char decrypted[N]{};           // decrypted data
-        mutable bool decrypted_flag{false};    // is currently decrypted?
+        mutable bool decrypted_flag{false};    
         const char* encrypted_data;
 
         // Shared PRNG logic (non-constexpr for runtime re-encrypt)
@@ -119,7 +119,7 @@ namespace obf {
             decrypted_flag = true;
         }
 
-        // RE-ENCRYPT (like AY – you asked for this!)
+        // RE-ENCRYPT
         void encrypt() const {
             if (!decrypted_flag) return;
             volatile char* p = decrypted;
